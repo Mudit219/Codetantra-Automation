@@ -1,0 +1,391 @@
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 18 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 18 12:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 20 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 20 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 08:29:00 2021
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "run_me.py", line 34, in hold_on
+    c.attend()
+  File "/home/mudit/Practice/Python/WebScrapping/project/codetantra.py", line 55, in attend
+    pages.timetablePage(self.driver).joinSession()
+  File "/home/mudit/Practice/Python/WebScrapping/project/pages.py", line 112, in joinSession
+    session_link.click()
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=87.0.4280.88)
+
+
+0.4331540639977902 second(s)
+2021
+Jan
+18
+Attending CS305 Programming Languages - Prof. Sujit Kumar Chakrabarti at 11:30
+https://iiitb.codetantra.com/secure/tla/jnr.jsp?m=fceb423a-5662-37ca-8fc6-56271e8c2179
+Session is live.......
+Session of CS305 Programming Languages - Prof. Sujit Kumar Chakrabarti has ended...
+Thread Thread-1 joined
+2021
+Jan
+18
+Attending EG 301 Operating Systems Lab - Prof. B Thangaraju at 18:00
+https://iiitb.codetantra.com/secure/tla/mi.jsp?s=m&m=e0558589-209e-3ae2-81aa-aff421be408f#
+Session of EG 301 Operating Systems Lab - Prof. B Thangaraju has ended...
+Thread Thread-2 joined
+Traceback (most recent call last):
+  File "run_me.py", line 79, in <module>
+    schedule.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 93, in run_pending
+    for job in sorted(runnable_jobs):
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 92, in <genexpr>
+    runnable_jobs = (job for job in self.jobs if job.should_run)
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 457, in should_run
+    return datetime.datetime.now() >= self.next_run
+KeyboardInterrupt
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 20 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 20 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 08:29:00 2021
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "run_me.py", line 34, in hold_on
+    c.attend()
+  File "/home/mudit/Practice/Python/WebScrapping/project/codetantra.py", line 42, in attend
+    self.driver.get(self.URL)
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=87.0.4280.88)
+
+
+6.125462085000009 second(s)
+2021
+Jan
+19
+Attending EG 301 Operating Systems theory - Prof. B Thangaraju at 09:30
+https://iiitb.codetantra.com/secure/tla/jnr.jsp?m=e01fc531-6bc5-3345-beb1-4b4803365fea
+Session is live.......
+Session of EG 301 Operating Systems theory - Prof. B Thangaraju has ended...
+Thread Thread-2 joined
+Session of EG 301 Operating Systems theory - Prof. B Thangaraju has ended...
+Thread Thread-1 joined
+Traceback (most recent call last):
+  File "run_me.py", line 79, in <module>
+    schedule.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 563, in run_pending
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 93, in run_pending
+    for job in sorted(runnable_jobs):
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 92, in <genexpr>
+    runnable_jobs = (job for job in self.jobs if job.should_run)
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 457, in should_run
+    return datetime.datetime.now() >= self.next_run
+KeyboardInterrupt
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 10:29:00 2021
+rtcwake: time doesn't go backward to Tue Jan 19 09:29:00 2021
+
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 06:10:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 20 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 20 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 06:10:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 08:29:00 2021
+5.232535739000014 second(s)
+Traceback (most recent call last):
+  File "run_me.py", line 79, in <module>
+    schedule.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 93, in run_pending
+    for job in sorted(runnable_jobs):
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 92, in <genexpr>
+    runnable_jobs = (job for job in self.jobs if job.should_run)
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 457, in should_run
+    return datetime.datetime.now() >= self.next_run
+KeyboardInterrupt
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 07:49:00 2021
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "run_me.py", line 34, in hold_on
+    c.attend()
+  File "/home/mudit/Practice/Python/WebScrapping/project/codetantra.py", line 42, in attend
+    self.driver.get(self.URL)
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=87.0.4280.88)
+
+
+6.363349727000241 second(s)
+Traceback (most recent call last):
+  File "run_me.py", line 90, in <module>
+    tdelta = datetime.datetime.strptime(curr_time, FMT) - datetime.datetime.strptime(course_info[1], FMT)
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 395, in _strptime
+    elif group_key == 'Y':
+KeyboardInterrupt
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 07:52:00 2021
+0.01889172899973346 second(s)
+Traceback (most recent call last):
+  File "run_me.py", line 79, in <module>
+    schedule.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 93, in run_pending
+    for job in sorted(runnable_jobs):
+KeyboardInterrupt
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 10:29:00 2021
+rtcwake: time doesn't go backward to Tue Jan 19 09:29:00 2021
+
+rtcwake: time doesn't go backward to Tue Jan 19 11:29:00 2021
+
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 19 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 20 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 20 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 08:29:00 2021
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "run_me.py", line 34, in hold_on
+    c.attend()
+  File "/home/mudit/Practice/Python/WebScrapping/project/codetantra.py", line 50, in attend
+    pages.timetablePage(self.driver).goto_calender(*self.get_date())
+  File "/home/mudit/Practice/Python/WebScrapping/project/pages.py", line 39, in goto_calender
+    EC.presence_of_element_located((By.ID,'datepick'))
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+0.3648206500001834 second(s)
+Traceback (most recent call last):
+  File "run_me.py", line 87, in <module>
+    curr_time = datetime.datetime.now().strftime('%H'+':'+'%M')
+KeyboardInterrupt
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 10:29:00 2021
+rtcwake: time doesn't go backward to Tue Jan 19 09:29:00 2021
+
+rtcwake: time doesn't go backward to Tue Jan 19 11:29:00 2021
+
+rtcwake: time doesn't go backward to Tue Jan 19 16:05:00 2021
+
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 20 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 20 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 10:35:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 08:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 26 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 26 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 26 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 27 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 27 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 21 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 08:29:00 2021
+11.217197126999963 second(s)
+2021
+Jan
+21
+Attending EG 301 Operating Systems theory - Prof. B Thangaraju at 09:30
+https://iiitb.codetantra.com/secure/tla/jnr.jsp?m=6f9b5d04-f123-32dd-a09c-b2643f574f93
+Session is live.......
+Session of EG 301 Operating Systems theory - Prof. B Thangaraju has ended...
+2021
+Jan
+21
+Attending AI 825 Visual Recognition by Prof. Dinesh Babu Jayagopi & Prof. Viswanath G at 11:30
+https://iiitb.codetantra.com/secure/tla/jnr.jsp?m=81fea906-ed1e-3a04-8dea-b575db407061
+Session is live.......
+Couldn't Join the audio becoz the session is not live
+Thread Thread-2 joined
+Session of AI 825 Visual Recognition by Prof. Dinesh Babu Jayagopi & Prof. Viswanath G has ended...
+Thread Thread-1 joined
+2021
+Jan
+21
+Attending DT 219 Societal Platform Thinking - Prof. Ramesh Sundararaman at 16:00
+https://iiitb.codetantra.com/secure/tla/jnr.jsp?m=5991ea92-5fb8-37ca-a63d-12e1fefd42f1
+Session is live.......
+Session of DT 219 Societal Platform Thinking - Prof. Ramesh Sundararaman has ended...
+Thread Thread-3 joined
+Traceback (most recent call last):
+  File "run_me.py", line 79, in <module>
+    schedule.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 93, in run_pending
+    for job in sorted(runnable_jobs):
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 92, in <genexpr>
+    runnable_jobs = (job for job in self.jobs if job.should_run)
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 457, in should_run
+    return datetime.datetime.now() >= self.next_run
+KeyboardInterrupt
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 26 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 26 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 26 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 27 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 27 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 28 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 28 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 28 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 22 08:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Jan 25 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 26 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 26 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Jan 26 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 27 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 27 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 28 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 28 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 28 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 29 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 29 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 29 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 29 08:29:00 2021
+10.821627883000474 second(s)
+2021
+Jan
+25
+Attending CS305 Programming Languages - Prof. Sujit Kumar Chakrabarti at 11:30
+https://iiitb.codetantra.com/secure/tla/jnr.jsp?m=e040cea1-ad2a-37ba-a861-6df4130b120a
+Session is live.......
+Couldn't Join the audio becoz the session is not live
+Session of CS305 Programming Languages - Prof. Sujit Kumar Chakrabarti has ended...
+Thread Thread-1 joined
+Traceback (most recent call last):
+  File "run_me.py", line 79, in <module>
+    schedule.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 93, in run_pending
+    for job in sorted(runnable_jobs):
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 92, in <genexpr>
+    runnable_jobs = (job for job in self.jobs if job.should_run)
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 457, in should_run
+    return datetime.datetime.now() >= self.next_run
+KeyboardInterrupt
+rtcwake: wakeup using /dev/rtc0 at Mon Feb  1 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Mon Feb  1 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Feb  2 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Feb  2 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Tue Feb  2 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 27 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Wed Jan 27 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 28 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 28 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Thu Jan 28 10:29:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 29 03:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 29 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 29 05:59:00 2021
+rtcwake: wakeup using /dev/rtc0 at Fri Jan 29 08:29:00 2021
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "run_me.py", line 34, in hold_on
+    c.attend()
+  File "/home/mudit/Practice/Python/WebScrapping/project/codetantra.py", line 51, in attend
+    pages.timetablePage(self.driver).goto_calender(*self.get_date())
+  File "/home/mudit/Practice/Python/WebScrapping/project/pages.py", line 39, in goto_calender
+    EC.presence_of_element_located((By.ID,'datepick'))
+  File "/home/mudit/.local/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+9.468736808000017 second(s)
+Traceback (most recent call last):
+  File "run_me.py", line 79, in <module>
+    schedule.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 563, in run_pending
+    default_scheduler.run_pending()
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 93, in run_pending
+    for job in sorted(runnable_jobs):
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 92, in <genexpr>
+    runnable_jobs = (job for job in self.jobs if job.should_run)
+  File "/home/mudit/.local/lib/python3.6/site-packages/schedule/__init__.py", line 457, in should_run
+    return datetime.datetime.now() >= self.next_run
+KeyboardInterrupt
